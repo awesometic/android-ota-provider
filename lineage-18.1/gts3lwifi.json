@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1683696685",
+      "filename": "lineage-18.1-20230510-UNOFFICIAL-gts3lwifi.zip",
+      "id": "133cec2090698b322cac75aa0db72fceb82d804527e624b0fe1b5e75d69f1d45",
+      "romtype": "UNOFFICIAL",
+      "size": "670915962",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3lwifi_lineage-18.1_1683696685/lineage-18.1-20230510-UNOFFICIAL-gts3lwifi.zip",
+      "version": "18.1"
+    }
+  ]
+}
