@@ -21,7 +21,7 @@ TYPE=$(echo $FILENAME | cut -f4 -d '-')
 VERSION=$(echo $FILENAME | cut -f2 -d '-')
 RELASE_TAG=${DEVICE}_lineage-${VERSION}_${TIMESTAMP}
 
-URL="https://github.com/ivanmeler/ota_provider/releases/download/${RELASE_TAG}/${FILENAME}"
+URL="https://github.com/awesometic/android-ota-provider/releases/download/${RELASE_TAG}/${FILENAME}"
 
 response=$(jq -n --arg datetime $TIMESTAMP \
         --arg filename $FILENAME \
