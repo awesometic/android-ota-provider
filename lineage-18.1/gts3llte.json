@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1686978578",
+      "filename": "lineage-18.1-20230617-UNOFFICIAL-gts3llte.zip",
+      "id": "5654f7e1749d1db9cde9921befc143156cbfca81e7bf31128cb306fe21347834",
+      "romtype": "UNOFFICIAL",
+      "size": "691578471",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-18.1_1686978578/lineage-18.1-20230617-UNOFFICIAL-gts3llte.zip",
+      "version": "18.1"
+    }
+  ]
+}
