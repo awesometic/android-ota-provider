@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1695200157",
+      "filename": "lineage-19.1-20230920-UNOFFICIAL-gts3llte.zip",
+      "id": "f833d0295a2240d99147f0b366f88185136c281fa254600b166bb2042b7fcbc7",
+      "romtype": "UNOFFICIAL",
+      "size": "765658121",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-19.1_1695200157/lineage-19.1-20230920-UNOFFICIAL-gts3llte.zip",
+      "version": "19.1"
+    }
+  ]
+}
