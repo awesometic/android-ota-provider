@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1695220574",
+      "filename": "crDroidAndroid-12.1-20230921-gts3llte-v8.16.zip",
+      "id": "938d22ba1bb8bf1bb01f705b4547916b758f2bc6048dcc3291790ab0d752fa71",
+      "romtype": "UNOFFICIAL",
+      "size": "942735061",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_crDroidAndroid-8.16_1695220574/crDroidAndroid-12.1-20230921-gts3llte-v8.16.zip",
+      "version": "8.16"
+    }
+  ]
+}
