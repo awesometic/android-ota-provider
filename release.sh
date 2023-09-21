@@ -18,10 +18,13 @@ ROMNAME=$(echo $FILENAME | cut -f1 -d '-')
 case $ROMNAME in
   "lineage")
     ROMTYPE=$(echo $FILENAME | cut -f4 -d '-')
+    VERSION=$(echo $FILENAME | cut -f2 -d '-')
     ;;
   "crDroidAndroid")
     # Assume that all the crDroid ROMs released by this script are unofficial one
     ROMTYPE="UNOFFICIAL"
+    PARSED_VERSION=$(echo ${FILENAME::-4} | cut -f5 -d '-')
+    VERSION=${PARSED_VERSION:1}
     ;;
   *)
     echo "Unknwon ROM name: $ROMNAME"
@@ -31,7 +34,6 @@ esac
 DATE=$(echo $FILENAME | cut -f3 -d '-')
 ID=$(echo ${TIMESTAMP}${DEVICE}${SDK_LEVEL} | sha256sum | cut -f 1 -d ' ')
 SIZE=$(du -b $ROM | cut -f1 -d '	')
-VERSION=$(echo $FILENAME | cut -f2 -d '-')
 RELASE_TAG=${DEVICE}_${ROMNAME}-${VERSION}_${TIMESTAMP}
 
 URL="https://github.com/awesometic/android-ota-provider/releases/download/${RELASE_TAG}/${FILENAME}"
@@ -46,6 +48,16 @@ response=$(jq -n --arg datetime $TIMESTAMP \
         '$ARGS.named'
 )
 wrapped_response=$(jq -n --argjson response "[$response]" '$ARGS.named')
+
+case $ROMNAME in
+  "lineage")
+    ;;
+  "crDroidAndroid")
+    VERSION=$(echo $VERSION | cut -f1 -d '.')
+    ;;
+  *)
+    ;;
+esac
 
 #! Ensure you are at the repository directory
 if [ ! -d $(pwd)/${ROMNAME}-${VERSION} ]; then
