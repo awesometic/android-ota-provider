@@ -14,7 +14,20 @@ TIMESTAMP=$(echo "$METADATA" | grep post-timestamp | cut -f2 -d '=')
 
 FILENAME=$(basename $ROM)
 ROMNAME=$(echo $FILENAME | cut -f1 -d '-')
-ROMTYPE=$(echo $FILENAME | cut -f4 -d '-')
+
+case $ROMNAME in
+  "lineage")
+    ROMTYPE=$(echo $FILENAME | cut -f4 -d '-')
+    ;;
+  "crDroidAndroid")
+    # Assume that all the crDroid ROMs released by this script are unofficial one
+    ROMTYPE="UNOFFICIAL"
+    ;;
+  *)
+    echo "Unknwon ROM name: $ROMNAME"
+    exit 1
+esac
+
 DATE=$(echo $FILENAME | cut -f3 -d '-')
 ID=$(echo ${TIMESTAMP}${DEVICE}${SDK_LEVEL} | sha256sum | cut -f 1 -d ' ')
 SIZE=$(du -b $ROM | cut -f1 -d '	')
