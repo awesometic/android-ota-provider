@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1695217857",
+      "filename": "crDroidAndroid-12.1-20230921-gts3lwifi-v8.16.zip",
+      "id": "b9e106d0b3aff657aac8511058ad6eb8eca2b6ce9786e233234c5ea16a03ba26",
+      "romtype": "gts3lwifi",
+      "size": "915005472",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/v8_crDroidAndroid-12.1_1695217857/crDroidAndroid-12.1-20230921-gts3lwifi-v8.16.zip",
+      "version": "12.1"
+    }
+  ]
+}
