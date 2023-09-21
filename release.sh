@@ -31,7 +31,6 @@ esac
 DATE=$(echo $FILENAME | cut -f3 -d '-')
 ID=$(echo ${TIMESTAMP}${DEVICE}${SDK_LEVEL} | sha256sum | cut -f 1 -d ' ')
 SIZE=$(du -b $ROM | cut -f1 -d '	')
-TYPE=$(echo $FILENAME | cut -f4 -d '-')
 VERSION=$(echo $FILENAME | cut -f2 -d '-')
 RELASE_TAG=${DEVICE}_${ROMNAME}-${VERSION}_${TIMESTAMP}
 
