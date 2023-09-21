@@ -1,18 +1,18 @@
 #!/bin/bash
 
-if [ -z "$1" ] ; then
-    echo "Usage: $0 <ota zip>"
+if [ ! $# -eq 2 ] ; then
+    echo "Usage: $0 <device codename> <ota zip>"
     exit 1
 fi
 
-ROM="$1"
+DEVICE="$1"
+ROM="$2"
 
 METADATA=$(unzip -p "$ROM" META-INF/com/android/metadata)
 SDK_LEVEL=$(echo "$METADATA" | grep post-sdk-level | cut -f2 -d '=')
 TIMESTAMP=$(echo "$METADATA" | grep post-timestamp | cut -f2 -d '=')
 
 FILENAME=$(basename $ROM)
-DEVICE=$(echo $FILENAME | cut -f5 -d '-' | cut -f1 -d".")
 ROMNAME=$(echo $FILENAME | cut -f1 -d '-')
 ROMTYPE=$(echo $FILENAME | cut -f4 -d '-')
 DATE=$(echo $FILENAME | cut -f3 -d '-')
