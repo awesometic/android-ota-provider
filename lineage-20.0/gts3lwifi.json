@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1695483434",
+      "filename": "lineage-20.0-20230924-UNOFFICIAL-gts3lwifi.zip",
+      "id": "65b6d811a62476a8a68e2c199f7eb7fa92b58ef73c3dce6decb101f6c5bcc93d",
+      "romtype": "UNOFFICIAL",
+      "size": "764570321",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3lwifi_lineage-20.0_1695483434/lineage-20.0-20230924-UNOFFICIAL-gts3lwifi.zip",
+      "version": "20.0"
+    }
+  ]
+}
