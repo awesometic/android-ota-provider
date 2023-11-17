@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1700017349",
+      "datetime": "1700239329",
       "filename": "lineage-20.0-20231117-UNOFFICIAL-gts3llte.zip",
-      "id": "6c8bbf51551449d1492c52142ce4824a1044adfd8039d413071d32c9ad9a9fa8",
+      "id": "feb3d9ccc259528b5f1763450929f5135b9a1646a85cb098c5f11528a6c88f2e",
       "romtype": "UNOFFICIAL",
-      "size": "788046733",
-      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-20.0_1700017349/lineage-20.0-20231117-UNOFFICIAL-gts3llte.zip",
+      "size": "788054613",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-20.0_1700239329/lineage-20.0-20231117-UNOFFICIAL-gts3llte.zip",
       "version": "20.0"
     }
   ]
