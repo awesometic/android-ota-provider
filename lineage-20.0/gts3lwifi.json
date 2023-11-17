@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1700014518",
+      "datetime": "1700236921",
       "filename": "lineage-20.0-20231117-UNOFFICIAL-gts3lwifi.zip",
-      "id": "dfb393b81cb1204bca3034d8c1a127f537d86ce15710726bc9a265cace6a3ecb",
+      "id": "354b2374f842858dc6857eb3f52d405e0553acaadbe49cd5558f9b3c23dc0c20",
       "romtype": "UNOFFICIAL",
-      "size": "760931107",
-      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3lwifi_lineage-20.0_1700014518/lineage-20.0-20231117-UNOFFICIAL-gts3lwifi.zip",
+      "size": "760920102",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3lwifi_lineage-20.0_1700236921/lineage-20.0-20231117-UNOFFICIAL-gts3lwifi.zip",
       "version": "20.0"
     }
   ]
