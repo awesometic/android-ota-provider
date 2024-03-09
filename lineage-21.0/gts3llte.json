@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1709442013",
+      "filename": "lineage-21.0-20240309-UNOFFICIAL-gts3llte.zip",
+      "id": "c18e6b0588f1aa579c06efc89835dcb9ca4ce9539cdca1f8336ff45d0491db6c",
+      "romtype": "UNOFFICIAL",
+      "size": "876921792",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-21.0_1709442013/lineage-21.0-20240309-UNOFFICIAL-gts3llte.zip",
+      "version": "21.0"
+    }
+  ]
+}
