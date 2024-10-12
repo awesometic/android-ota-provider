@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1700030054",
-      "filename": "lineage-19.1-20231115-UNOFFICIAL-gts3llte.zip",
-      "id": "eacacde33f125cf8e2c70af4a6bbb601df2c90da0dfcb9a76e195f09fbd6f427",
+      "datetime": "1728715193",
+      "filename": "lineage-19.1-20241012-UNOFFICIAL-gts3llte.zip",
+      "id": "8a1c326e3e380e313924c0cd07af4e481b53157fcb549b54e7f1dabfccdfd5ca",
       "romtype": "UNOFFICIAL",
-      "size": "761791431",
-      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-19.1_1700030054/lineage-19.1-20231115-UNOFFICIAL-gts3llte.zip",
+      "size": "788305753",
+      "url": "https://github.com/awesometic/android-ota-provider/releases/download/gts3llte_lineage-19.1_1728715193/lineage-19.1-20241012-UNOFFICIAL-gts3llte.zip",
       "version": "19.1"
     }
   ]
